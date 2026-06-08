@@ -9,6 +9,26 @@
             <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="Drinkmenu.jsp" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-1">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="640" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Servlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-2">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="200" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="DAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-3">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="480" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Logic" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-4">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="340" y="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
