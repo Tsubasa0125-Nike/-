@@ -11,7 +11,7 @@
         </UserObject>
         <UserObject label="Drinkmenu.jsp" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-1">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="640" y="40" as="geometry" />
+            <mxGeometry height="60" width="120" x="570" y="400" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="DrinkServlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-2">
@@ -21,12 +21,12 @@
         </UserObject>
         <UserObject label="DAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-3">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="490" y="40" as="geometry" />
+            <mxGeometry height="60" width="120" x="580" y="140" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Logic" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-4">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="510" y="140" as="geometry" />
+            <mxGeometry height="60" width="120" x="580" y="10" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="FoodServlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-5">
@@ -51,6 +51,25 @@
         </mxCell>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Drinkボタンを押下" vertex="1">
           <mxGeometry height="30" width="110" x="130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DrinkBeans" vertex="1">
+          <mxGeometry height="120" width="140" x="420" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-16" parent="GzrKcPuWWhxOvhhJzTYZ-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="・String name" vertex="1">
+          <mxGeometry height="30" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-17" parent="GzrKcPuWWhxOvhhJzTYZ-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="・" vertex="1">
+          <mxGeometry height="30" width="140" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-18" parent="GzrKcPuWWhxOvhhJzTYZ-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="・" vertex="1">
+          <mxGeometry height="30" width="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-20" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-5" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-4" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="430" y="20" as="sourcePoint" />
+            <mxPoint x="530" y="20" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
