@@ -19,9 +19,9 @@
             <mxGeometry height="60" width="120" x="280" y="90" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="DAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-3">
+        <UserObject label="ProductsDAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-3">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="580" y="140" as="geometry" />
+            <mxGeometry height="60" width="120" x="580" y="160" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Logic" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-4">
@@ -70,6 +70,31 @@
             <mxPoint x="430" y="20" as="sourcePoint" />
             <mxPoint x="530" y="20" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <UserObject label="ordersDAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-21">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="354" y="220" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="order_detailDAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-22">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="354" y="300" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-23" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-4" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="110" as="sourcePoint" />
+            <mxPoint x="670" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-24" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-3" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="629.5" y="90" as="sourcePoint" />
+            <mxPoint x="629.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="drink" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
