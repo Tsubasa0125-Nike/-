@@ -6,7 +6,7 @@
         <mxCell id="1" parent="0" />
         <UserObject label="index.jsp" treeRoot="1" id="12O0G42VGZkHqy56PqCk-1">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="40" y="40" as="geometry" />
+            <mxGeometry height="60" width="120" x="10" y="10" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Drinkmenu.jsp" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-1">
@@ -14,21 +14,44 @@
             <mxGeometry height="60" width="120" x="640" y="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="Servlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-2">
+        <UserObject label="DrinkServlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-2">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="200" y="40" as="geometry" />
+            <mxGeometry height="60" width="120" x="280" y="90" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="DAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-3">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="480" y="40" as="geometry" />
+            <mxGeometry height="60" width="120" x="490" y="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Logic" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-4">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="340" y="40" as="geometry" />
+            <mxGeometry height="60" width="120" x="510" y="140" as="geometry" />
           </mxCell>
         </UserObject>
+        <UserObject label="FoodServlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-5">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="280" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="40" as="sourcePoint" />
+            <mxPoint x="240" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Foodボタンを押下" vertex="1">
+          <mxGeometry height="30" width="110" x="150" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-13" edge="1" parent="1" source="12O0G42VGZkHqy56PqCk-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="130" as="sourcePoint" />
+            <mxPoint x="230" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Drinkボタンを押下" vertex="1">
+          <mxGeometry height="30" width="110" x="130" y="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
