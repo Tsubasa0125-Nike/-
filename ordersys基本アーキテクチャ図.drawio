@@ -31,7 +31,7 @@
         </UserObject>
         <UserObject label="FoodServlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-5">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="280" y="370" as="geometry" />
+            <mxGeometry height="60" width="120" x="130" y="370" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-2" value="">
@@ -105,6 +105,21 @@
             <mxPoint x="100" y="140" as="sourcePoint" />
             <mxPoint x="200" y="140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <UserObject label="ordersServlet" treeRoot="1" id="slwgOERYFhfJAUPwfASS-2">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="280" y="280" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="slwgOERYFhfJAUPwfASS-3" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="slwgOERYFhfJAUPwfASS-2" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="470" y="260" as="sourcePoint" />
+            <mxPoint x="570" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="slwgOERYFhfJAUPwfASS-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注文の受付・処理" vertex="1">
+          <mxGeometry height="30" width="110" x="360" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
