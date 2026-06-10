@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ページ-1" id="xO5UhvRWMNFS8ynVEKq_">
-    <mxGraphModel dx="774" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1795" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,12 +11,12 @@
         </UserObject>
         <UserObject label="Drinkmenu.jsp" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-1">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="570" y="400" as="geometry" />
+            <mxGeometry height="60" width="120" x="280" y="150" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="DrinkServlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-2">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="280" y="90" as="geometry" />
+            <mxGeometry height="60" width="120" x="280" y="10" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="ProductsDAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-3">
@@ -31,26 +31,29 @@
         </UserObject>
         <UserObject label="FoodServlet" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-5">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="280" y="10" as="geometry" />
+            <mxGeometry height="60" width="120" x="280" y="370" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-5" value="">
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="130" y="40" as="sourcePoint" />
-            <mxPoint x="240" y="40" as="targetPoint" />
+            <mxPoint x="240" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Foodボタンを押下" vertex="1">
-          <mxGeometry height="30" width="110" x="150" y="10" as="geometry" />
+          <mxGeometry height="30" width="110" x="-10" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-13" edge="1" parent="1" source="12O0G42VGZkHqy56PqCk-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-2" value="">
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-13" edge="1" parent="1" source="12O0G42VGZkHqy56PqCk-1" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-5" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="400" />
+            </Array>
             <mxPoint x="180" y="130" as="sourcePoint" />
-            <mxPoint x="230" y="80" as="targetPoint" />
+            <mxPoint x="270" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Drinkボタンを押下" vertex="1">
-          <mxGeometry height="30" width="110" x="130" y="100" as="geometry" />
+          <mxGeometry height="30" width="110" x="150" y="10" as="geometry" />
         </mxCell>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DrinkBeans" vertex="1">
           <mxGeometry height="120" width="140" x="420" y="70" as="geometry" />
@@ -64,7 +67,7 @@
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-18" parent="GzrKcPuWWhxOvhhJzTYZ-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="・" vertex="1">
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-20" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-5" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-4" value="">
+        <mxCell id="GzrKcPuWWhxOvhhJzTYZ-20" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-2" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-4" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points" />
             <mxPoint x="430" y="20" as="sourcePoint" />
@@ -73,12 +76,12 @@
         </mxCell>
         <UserObject label="ordersDAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-21">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="354" y="220" as="geometry" />
+            <mxGeometry height="60" width="120" x="580" y="360" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="order_detailDAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-22">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="354" y="300" as="geometry" />
+            <mxGeometry height="60" width="120" x="580" y="440" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-23" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-4" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-3" value="">
@@ -95,6 +98,13 @@
         </mxCell>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="drink" vertex="1">
           <mxGeometry height="30" width="60" x="560" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="slwgOERYFhfJAUPwfASS-1" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-2" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-1" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="100" y="140" as="sourcePoint" />
+            <mxPoint x="200" y="140" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
