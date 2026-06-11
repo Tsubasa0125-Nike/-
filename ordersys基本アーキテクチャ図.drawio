@@ -81,7 +81,7 @@
         </UserObject>
         <UserObject label="order_detailDAO" treeRoot="1" id="GzrKcPuWWhxOvhhJzTYZ-22">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="580" y="525" as="geometry" />
+            <mxGeometry height="60" width="120" x="580" y="520" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="GzrKcPuWWhxOvhhJzTYZ-23" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-4" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-3" value="">
@@ -147,15 +147,36 @@
             <mxPoint x="640" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="slwgOERYFhfJAUPwfASS-9" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+        <mxCell id="slwgOERYFhfJAUPwfASS-9" edge="1" parent="1" source="slwgOERYFhfJAUPwfASS-11" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="GzrKcPuWWhxOvhhJzTYZ-22" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points" />
-            <mxPoint x="250" y="460" as="sourcePoint" />
-            <mxPoint x="350" y="460" as="targetPoint" />
+            <mxPoint x="120" y="500" as="sourcePoint" />
+            <mxPoint x="220" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="slwgOERYFhfJAUPwfASS-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="order Info" vertex="1">
           <mxGeometry height="30" width="60" x="680" y="360" as="geometry" />
+        </mxCell>
+        <UserObject label="Logic" treeRoot="1" id="slwgOERYFhfJAUPwfASS-11">
+          <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="400" y="520" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="slwgOERYFhfJAUPwfASS-12" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-22" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="slwgOERYFhfJAUPwfASS-11" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="250" y="530" as="sourcePoint" />
+            <mxPoint x="350" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="slwgOERYFhfJAUPwfASS-13" edge="1" parent="1" source="slwgOERYFhfJAUPwfASS-2" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="550" />
+            </Array>
+            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="400" y="550" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
