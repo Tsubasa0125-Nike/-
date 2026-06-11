@@ -178,6 +178,9 @@
             <mxPoint x="400" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="slwgOERYFhfJAUPwfASS-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注文データを送る" vertex="1">
+          <mxGeometry height="30" width="110" x="359" y="390" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
