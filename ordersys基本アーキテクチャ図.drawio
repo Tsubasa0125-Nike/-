@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ページ-1" id="xO5UhvRWMNFS8ynVEKq_">
-    <mxGraphModel dx="1446" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2375" dy="2071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -188,7 +188,7 @@
           <mxGeometry height="30" width="230" x="-570" y="-170" as="geometry" />
         </mxCell>
         <mxCell id="slwgOERYFhfJAUPwfASS-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="FoodBeans" vertex="1">
-          <mxGeometry height="120" width="140" x="-690" y="490" as="geometry" />
+          <mxGeometry height="120" width="140" x="-430" y="210" as="geometry" />
         </mxCell>
         <mxCell id="slwgOERYFhfJAUPwfASS-18" parent="slwgOERYFhfJAUPwfASS-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="・String name" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
@@ -211,7 +211,7 @@
         </mxCell>
         <UserObject label="FoodMenu.jsp" treeRoot="1" id="slwgOERYFhfJAUPwfASS-27">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
-            <mxGeometry height="60" width="120" x="-400" y="160" as="geometry" />
+            <mxGeometry height="60" width="120" x="-240" y="160" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
