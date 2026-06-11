@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ページ-1" id="xO5UhvRWMNFS8ynVEKq_">
-    <mxGraphModel dx="1642" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,7 +111,7 @@
             <mxGeometry height="60" width="120" x="-510" y="285" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="slwgOERYFhfJAUPwfASS-3" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="slwgOERYFhfJAUPwfASS-2" value="">
+        <mxCell id="slwgOERYFhfJAUPwfASS-3" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="slwgOERYFhfJAUPwfASS-2" value="">
           <mxGeometry relative="1" width="100" as="geometry">
             <Array as="points" />
             <mxPoint x="-320" y="265" as="sourcePoint" />
@@ -119,7 +119,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="slwgOERYFhfJAUPwfASS-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注文の受付・処理" vertex="1">
-          <mxGeometry height="30" width="110" x="-430" y="215" as="geometry" />
+          <mxGeometry height="30" width="110" x="-590" y="235" as="geometry" />
         </mxCell>
         <UserObject label="OrderLogic" treeRoot="1" id="slwgOERYFhfJAUPwfASS-5">
           <mxCell parent="1" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
@@ -194,7 +194,14 @@
           <mxGeometry height="30" width="140" y="90" as="geometry" />
         </mxCell>
         <mxCell id="slwgOERYFhfJAUPwfASS-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="注文データを送る" vertex="1">
-          <mxGeometry height="30" width="110" x="-431" y="245" as="geometry" />
+          <mxGeometry height="30" width="110" x="-420" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="slwgOERYFhfJAUPwfASS-22" edge="1" parent="1" source="GzrKcPuWWhxOvhhJzTYZ-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="slwgOERYFhfJAUPwfASS-2" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-390" y="220" as="sourcePoint" />
+            <mxPoint x="-290" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
